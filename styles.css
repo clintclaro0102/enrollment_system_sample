@@ -1,0 +1,219 @@
+        /* Reset some default browser styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        /* Set a background color for the entire page */
+        body {
+            background-color: #e0e0e0; /* Adjust the background color as needed */
+            font-family: Arial, sans-serif;
+        }
+        /* Style the header */
+        header {
+            background-color: #333; /* Header background color */
+            color: #fff; /* Header text color */
+            display: flex;
+            align-items: center; /* Vertically center the content */
+            padding: 10px 20px;
+        }
+    
+       
+        /* Style the school name */
+        .sschool-name {
+            font-size: 25px;
+            margin-right: 300px; /* Adjust the font size as needed */
+        }
+        .sadmin{
+            font-size: 16px; /* Adjust the font size as needed */
+            color: #fff; /* Change the text color to your desired color */
+            margin-right: 120px; /* Add some left margin to create spacing */
+        }
+        
+        a {
+            color: #ffffff; /* Change to your desired link color (e.g., dark blue) */
+            font-size: 14px;
+            text-decoration: none; /* Remove underline on links */
+            margin-right: 50px;
+        }
+
+        /* Change the link color when hovering over it */
+        a:hover {
+            color: #2c00f0; /* Change to your desired hover color (e.g., purple) */
+        }
+
+        /* Adjust the height of the entire site */
+        main {
+            display: flex;
+            height: 75vh; /* Change the height as needed */
+        }
+
+        table {
+            width: 100%; /* Make the table take up the full width of its container */
+            max-width: 400px; /* Set a maximum width for the table */
+            margin: 0 auto; /* Center the table horizontally */
+        }
+                /* Center content within table cells */
+        table td {
+            text-align: center;
+            padding: 10px;
+        }
+        /* Style labels for form inputs */
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 6px;
+        }
+
+        /* Style form inputs */
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        /* Style for the search container */
+        .search-container {
+            /*background-color: #f2f2f2; /* Adjust the background color as needed */
+            padding: 10px;
+            border-radius: 0px;
+            width:30%;
+            display: flex;
+            align-items: center;
+
+            position: absolute;
+        }
+
+        /* Style for the search input field (optional) */
+        .search-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 0px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Style for the search button (optional) */
+        .search-container button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            width: 80%;
+            border-radius: 0px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+
+        /* Style for the search results (optional) */
+        .search-results {
+            margin-top: 20px;
+            /* Add any additional styling for the search results here */
+        }
+
+        .search-container button.logo-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            width: 30px; /* Set the width to match the image's width */
+            height: 30px; /* Set the height to match the image's height */
+        }
+
+
+        .logo-button {
+            text-align: center;
+            margin: 0 10px; /* Add margin to create space between buttons */
+            position: relative;
+            transition: transform 0.2s;
+            display: inline-block; /* Display buttons inline */
+        }
+
+        .logo-button img {
+            width: 45px;
+            height: auto;
+        }
+
+        /* Add a hover effect for the buttons */
+        .logo-button:hover {
+            transform: scale(1.1);
+        }
+        .student-container {
+            display: block;
+            justify-content: space-between;
+            width: 95%;
+            height: auto;
+            border: 2px solid #ccc;
+            padding: 40px 30px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: #333;
+            color: #fff;
+            font-size: 12px;
+            font-weight: normal;
+
+            position: absolute;
+            top: 25%;
+            left: -1%;
+        }
+        .container-left {
+            flex: 0 0 30%; /* Set a fixed width of 30% for the left container */
+        }
+        .container-left table {
+            max-width: 50%; /* Add a maximum width to prevent the table from growing */
+        }
+
+        .container-right {
+            padding-left: 10px; /* Adjust the padding as needed */
+        }
+
+        .container-right table {
+            width: 100%; /* Ensure the table takes up the available space in the right container */
+        }
+
+        .student-container h2 {
+            text-align: center;
+        }
+
+        .container-left td {
+            width: 15%;
+            text-align: left;
+        }
+
+        .student-container th {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 40px;
+        }
+        .student-container td {
+            border: px solid #ccc;
+            padding: 6px;
+        }
+
+        .payment-container {
+            display: block;
+            width: auto;
+            height: auto; /* Set the width to 50% */
+            border: 2px solid #ccc;
+            padding: 10px 80px; /* Adjust padding as needed */
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: #333;
+            color: #fff;
+            font-size: 12px;
+            font-weight: normal;
+            /*vertical-align: top; /* Align the top edges of containers */
+            position: absolute; /* Change to relative */
+            top: 105%;
+            left:7%;
+        }
+        .payment-container table{
+            margin: -1px; /* Center the table horizontally */
+        }
+        .payment-container h2 {
+            text-align: center; /* Center-align the captions */
+        }

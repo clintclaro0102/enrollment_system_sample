@@ -1,0 +1,153 @@
+ /* CSS styles go here */
+
+        /* Set a background color for the entire page */
+        body {
+            background-color: #e0e0e0; /* Adjust the background color as needed */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #333; /* Header background color */
+            color: #fff; /* Header text color */
+            display: flex;
+            align-items: center; /* Vertically center the content */
+            padding: 10px 20px;
+        }
+    
+        /* Style the logo */
+        .logo {
+            max-width: 60px; /* Adjust the maximum width of the logo as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 35px; /* Add some spacing between the logo and school name */
+        }
+        /* Style the school name */
+        .school-name {
+            font-size: 25px;
+            margin-right: 300px; /* Adjust the font size as needed */
+        }
+        
+        a {
+            color: #ffffff; /* Change to your desired link color (e.g., dark blue) */
+            font-size: 14px;
+            text-decoration: none; /* Remove underline on links */
+            margin-right: 50px;
+        }
+
+        /* Change the link color when hovering over it */
+        a:hover {
+            color: #2c00f0; /* Change to your desired hover color (e.g., purple) */
+        }
+
+        .form-container label {
+            color: #333; /* Set the text color for labels */
+            font-weight: bold; /* Make labels bold */
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="password"],
+        .form-container select,
+        .form-container input[type="radio"] {
+            width: 100%; /* Make input fields full width */
+            padding: 9px;
+            margin-bottom: 0px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 11px; /* Adjust the font size for inputs */
+        }
+
+        .form-container select {
+            height: 40px; /* Set the height for select elements */
+        }
+
+        .form-container h2 {
+            font-size: 20px; /* Adjust the heading size as needed */
+            margin-bottom: 1px;
+            text-align: center;
+        }
+
+        /* Style radio buttons and labels */
+        .form-container input[type="radio"] {
+            margin-right: 5px; /* Add spacing between radio buttons */
+        }
+
+        /* Style form inputs */
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        
+        .info-container {
+            display: none;
+            border: 2px solid #ccc;
+            padding: 70px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: #333;
+            color: #fff; 
+        }
+
+        .info-container p {
+            margin: 0px 0;
+        }
+
+        /* Style for the form container */
+        .form-container {
+            width: 100%;
+            max-width: 600px; /* Set the max-width for the form */
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            font-size: 14px;
+            margin: 0 auto; /* Center the form container */
+        }
+
+        /* Button container for centering */
+        .button-container {
+            text-align: center; /* Center the button */
+            margin-top: 20px;
+        }
+
+        /* Style the register button */
+        #register-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+                
+        
+        
+        /* OK Button Style */
+        .ok-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* OK Button Hover Effect */
+        .ok-button:hover {
+            background-color: #FFF; /* Change the background color on hover */
+        }
+
+        .logo-button img {
+            width: 100px;
+            height: auto;
+        }

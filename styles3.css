@@ -1,0 +1,181 @@
+/* CSS styles go here */
+        /* Reset some default browser styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color for the entire page */
+        body {
+            background-color: #e0e0e0; /* Adjust the background color as needed */
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+         /* Style the header */
+         header {
+            background-color: #333; /* Header background color */
+            color: #fff; /* Header text color */
+            display: flex;
+            align-items: center; /* Vertically center the content */
+            padding: 10px 20px;
+        }
+    
+        /* Style the logo */
+        .logo {
+            max-width: 60px; /* Adjust the maximum width of the logo as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 35px; /* Add some spacing between the logo and school name */
+        }
+        /* Style the school name */
+        .school-name {
+            font-size: 25px;
+            margin-right: 300px; /* Adjust the font size as needed */
+        }
+        .admin{
+            font-size: 16px; /* Adjust the font size as needed */
+            color: #fff; /* Change the text color to your desired color */
+            margin-right: 120px; /* Add some left margin to create spacing */
+        }
+        
+        a {
+            color: #ffffff; /* Change to your desired link color (e.g., dark blue) */
+            font-size: 14px;
+            text-decoration: none; /* Remove underline on links */
+            margin-right: 50px;
+        }
+
+        /* Change the link color when hovering over it */
+        a:hover {
+            color: #2c00f0; /* Change to your desired hover color (e.g., purple) */
+        }
+        /* Adjust the height of the entire site */
+        main {
+            display: flex;
+            height: 75vh; /* Change the height as needed */
+        }
+
+        table {
+            width: 100%; /* Make the table take up the full width of its container */
+            max-width: 400px; /* Set a maximum width for the table */
+            margin: 0 auto; /* Center the table horizontally */
+        }
+                /* Center content within table cells */
+        table td {
+            text-align: center;
+            padding: 10px;
+        }
+        /* Style labels for form inputs */
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 6px;
+        }
+
+        /* Style form inputs */
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Style links for the "Register" link */
+        #register-link {
+            margin-top: 12px;
+            display: block;
+        }
+
+        /* Center-align the button container and style the buttons */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .logo-button {
+            text-align: center;
+            margin: 0 10px; /* Add margin to create space between buttons */
+            position: relative;
+            transition: transform 0.2s;
+            display: inline-block; /* Display buttons inline */
+        }
+
+        .logo-button img {
+            width: 100px;
+            height: auto;
+        }
+
+        /* Add a hover effect for the buttons */
+        .logo-button:hover {
+            transform: scale(1.1);
+        }
+        
+    /* Style the logo */
+    .logo {
+        max-width: 60px; /* Adjust the maximum width of the logo as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 35px; /* Add some spacing between the logo and school name */
+    }
+        /* Style the school name */
+    .school-name {
+        font-size: 25px;
+        margin-right: 300px; /* Adjust the font size as needed */
+    }
+    
+    /* Style the school name */
+    .school-name1 {
+        font-size: 25px;
+        margin-right: 300px; /* Adjust the font size as needed */
+    }
+    .login-container {
+        width: 25%; /* Adjust the width as needed */
+        padding: 50px;
+        background-color: #f0f0f0; /* Set the background color as desired */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bold;
+
+        /* Center the container horizontally and vertically */
+        position: absolute;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* Add a hover effect */
+        transition: background-color 0.3s;
+    }
+
+    /* Define the hover effect */
+    .login-container:hover {
+        background-color: #ddd; /* Change the background color on hover */
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .login-container h2 {
+        font-size: 20px; /* Adjust the heading size as needed */
+        margin-bottom: 20px;
+        text-align: center;
+         /* Spacing below the heading */
+    }
+    .login-container button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        font-weight: bold; /* Make button text bold */
+    }
